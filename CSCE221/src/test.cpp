@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 class Test
@@ -17,27 +18,28 @@ public:
 
 int main()
 {
-    Test obj;
-    cout << "Initial Value: ";
-    obj.print();
-    obj.setX1(20);
-    cout << "After setX1(20): ";
-    obj.print();
-    obj.setX2(20);
-    cout << "After setX2(20): ";
-    obj.print();
-    int main_x = 30;
-    cout << "main_x starts at 30" << endl;
-    obj.setX3(main_x);
-    cout << "After setX3(main_x): main_x = " << main_x << ", ";
-    obj.print();
-    obj.setX4(main_x);
-    cout << "After setX4(main_x): main_x = " << main_x << ", ";
-    obj.print();
-    main_x = 40;
-    cout << "main_x set to 40" << endl;
-    obj.setX5(main_x);
-    cout << "After setX5(main_x): main_x = " << main_x << ", ";
-    obj.print();
+    // Test obj;
+    // cout << "Initial Value: ";
+    // obj.print();
+    // obj.setX1(20);
+    // cout << "After setX1(20): ";
+    // obj.print();
+    // obj.setX2(20);
+    // cout << "After setX2(20): ";
+    // obj.print();
+    // int main_x = 30;
+    // cout << "main_x starts at 30" << endl;
+    // obj.setX3(main_x);
+    // cout << "After setX3(main_x): main_x = " << main_x << ", ";
+    // obj.print();
+    // obj.setX4(main_x);
+    // cout << "After setX4(main_x): main_x = " << main_x << ", ";
+    // obj.print();
+    // main_x = 40;
+    // cout << "main_x set to 40" << endl;
+    // obj.setX5(main_x);
+    // cout << "After setX5(main_x): main_x = " << main_x << ", ";
+    // obj.print();
+    // return 0;
     return 0;
 }
