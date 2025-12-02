@@ -55,6 +55,7 @@
         "stdio.h": "c",
         "list": "cpp",
         "unordered_set": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "math.h": "c"
     }
 }
